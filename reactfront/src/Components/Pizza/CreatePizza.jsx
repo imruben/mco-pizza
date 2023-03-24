@@ -58,6 +58,7 @@ const CreatePizza = (props) => {
         let prepprice = total / 2;
 
         props.addPizzaToOrder(id, ingredientsPizzaOrder, total, pizzaname);
+        props.closeShowModal();
     };
 
     return (
