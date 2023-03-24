@@ -8,6 +8,7 @@
 #### Composer update
 #### npm install
 #### php artisan migrate:fresh --seed (to get the dbs and test data)
+#### php artisan serve to start the server
 
 ### In react
 #### npm run start
